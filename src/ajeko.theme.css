@@ -1,1 +1,158 @@
+* {
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
 
+/* Background */
+    .container-1eFtFS {
+        backdrop-filter: blur(5px);
+    }
+
+    .layers-OrUESM {
+        background: url(https://github.com/MRAJEKO/discord-themes/raw/master/src/wallpaper2.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+
+/* Server List */
+    .wrapper-1_HaEi {
+        background-color: rgba(0, 0, 0, 0.493) !important;
+    }
+
+    .expandedFolderBackground-1kSAf6  {
+        background-color: rgba(112, 112, 112, 0.329) !important;
+    }
+
+    .folder-241Joy {
+        background: none;
+    }
+
+    .folder-241Joy:hover {
+        background-color: rgba(0, 0, 0, 0.178);
+    }
+
+/* Channels */
+    .sidebar-1tnWFu, .container-1NXEtd, .animatedContainer-2laTjx, .container-1-ERn5, .privateChannels-oVe7HL, .scroller-WSmht3, .container-ZMc96U {
+        background-color: rgba(0, 0, 0, 0.329) !important;
+    }
+
+    .containerDefault-YUSmu3 {
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .selected-2TbFuo {
+        background-color: rgba(255, 255, 255, 0.151) !important;
+    }
+
+    .wrapper-NhbLHG .content-1gYQeQ {
+        transition: all 0.5s ease;
+    }
+
+    li:not(.selected-2TbFuo) .wrapper-NhbLHG:hover .content-1gYQeQ {
+        background-color: rgba(255, 255, 255, 0.068) !important;
+        border-radius: 10px;
+        transform: scale(0.95);
+    }
+
+    .selected-2TbFuo .name-28HaxV {
+        color: white;
+    }
+
+    .emojiColorFill-3g46kH {
+        background-color: transparent !important;
+    }
+
+    .mainContent-20q_Hp {
+        flex-direction: row-reverse;
+    }
+
+/* Chat */
+    /* Send Message */
+        .inner-NQg18Y, .chat-2ZfjoI, .channelTextArea-1FufC0 {
+            background: none !important;
+        }  
+
+        .scrollableContainer-15eg7h {
+            background: rgba(255, 255, 255, 0.123);
+            border-radius: 50px;
+        } 
+
+
+.container-2cd8Mz, .chatContent-3KubbW {
+    background-color: transparent !important;
+}
+
+
+/* Member Bar */
+.membersWrap-3NUR2t {
+    max-width: 240px;
+    min-width: 240px;
+}
+
+.hiddenMembers-8kpYM0 {
+    justify-content: inherit;
+}
+
+.content-yjf30S {
+    width: 100%;
+}
+
+    /* Role Header */
+    .membersGroup-2eiWxl {
+        padding: 7px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.055)  2% 50%, transparent);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+        margin: 20px 00 0;
+    }
+       
+
+    /* Users */
+    .content-1U25dZ {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .member-2gU6Ar {
+        margin: 0;
+        max-width: none;
+        transition: all 0.5s ease !important;
+    }
+
+    .content-1U25dZ .nameAndDecorators-3ERwy2 {
+        z-index: 1;
+        min-width: 90%;
+        flex: 1 1 auto;
+    }
+
+    .memberInner--L4X2b {
+        padding: 0 7px;
+    }
+
+    .content-1U25dZ .nameAndDecorators-3ERwy2 .username-i5-wv- span::before {
+        content: "";
+        position: absolute;
+        height: 44px;
+        right: 0;
+        top: 0;
+        background: linear-gradient(to right, currentColor 2% 50%, transparent);
+        opacity: 0.2;
+        z-index: -1;
+        left: 0;
+        transition: all 1s ease;
+    }
+
+    .member-2gU6Ar:hover .username-i5-wv- span::before {
+        opacity: 0.4;
+        border-radius: 5px !important;
+    }
+
+    .member-2gU6Ar:hover {
+        transform: scale(0.95);
+    }
+
+   
