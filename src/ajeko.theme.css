@@ -121,12 +121,56 @@
 
         .scrollableContainer-15eg7h {
             background: rgba(255, 255, 255, 0.123);
-            border-radius: 50px;
+            border-radius: 22px;
         } 
 
         .form-3gdLxP {
             margin-top: 0;
         }
+
+        /* Reply */
+            .replyBar-1oi75v {
+                background-color: transparent;
+            }
+
+            .attachedBars-2BCP3l {
+                background-color: rgba(0, 0, 0, 0.308);
+                border-radius: 10px;
+            }
+        
+        /* Autocomplete */
+            .autocomplete-3NRXG8 {
+                background-color: rgba(0, 0, 0, 0.815) !important;
+                border-radius: 10px;
+            }
+
+        /* Pickers */
+            .contentWrapper-3vHNP2 {
+                background-color: rgba(0, 0, 0, 0.801);
+            }
+
+            .searchBar-3aIzc-, .container-1SX9VC {
+                background-color: rgba(51, 51, 51, 0.452) !important;
+                border-radius: 10px;
+            }
+            
+            .packHeader-w9jpYl, .header-1ULbqO {
+                background-color: rgba(0, 0, 0, 0.747);
+                border-radius: 10px;
+            }
+
+            .categoryList-2GgCrD, .categoryList-2qRrlj {
+                background-color: rgba(0, 0, 0, 0.747);
+            }
+
+            .inspector-DFKXwB {
+                background-color: transparent;
+            }
+
+            .navButtonActive-1EqC5l {
+                background-color: rgba(0, 0, 0, 0.288);
+            }
+
 
     /* Messages */
         .messageListItem-ZZ7v6g, .wrapper-15CKyy {
@@ -151,6 +195,21 @@
                 border-radius: 10px;
             }
 
+        /* Code */
+            .messageContent-2t3eCI code {
+                background-color: rgba(0, 0, 0, 0.418);
+                border-radius: 10px;
+            }
+
+        /* Control Buttons */
+            .wrapper-2vIMkT {
+                background-color: rgba(0, 0, 0, 0.534);
+            }
+        
+        /* Embed */
+            .embedFull-1HGV2S {
+                background-color: rgba(0, 0, 0, 0.377);
+            }
 
 .container-2cd8Mz, .chatContent-3KubbW {
     background-color: transparent !important;
@@ -168,7 +227,11 @@
 }
 
 .container-2o3qEW {
-    background-color: rgba(0, 0, 0, 0.527) !important;
+    background-color: transparent;
+}
+
+.membersWrap-3NUR2t {
+    background-color: rgba(0, 0, 0, 0.384) !important;
 }
 
 .hiddenMembers-8kpYM0 {
