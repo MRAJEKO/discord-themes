@@ -7,7 +7,11 @@
         backdrop-filter: blur(5px);
     }
 
-    .layers-OrUESM {
+    .wrapper-3HVHpV {
+        background: none;
+    }
+
+    .layers-OrUESM, .container-2RRFHK {
         background: url(https://github.com/MRAJEKO/discord-themes/raw/master/src/wallpaper2.png) !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
@@ -56,8 +60,40 @@
         transform: scale(0.95);
     }
 
+    .content-1gYQeQ:has(.children-1MGS9G .channelInfo-3jN1ay .mentionsBadge-3H1BKJ) .mainContent-20q_Hp .name-28HaxV {
+        color: #f23f42;
+        font-weight: bold;
+    }
+
+    .content-1gYQeQ:has(.children-1MGS9G .channelInfo-3jN1ay .mentionsBadge-3H1BKJ) {
+        overflow: visible !important;
+    }
+
+    .content-1gYQeQ .children-1MGS9G {
+        display: none;
+    }
+
+
+    .content-1gYQeQ .children-1MGS9G:has(.channelInfo-3jN1ay .mentionsBadge-3H1BKJ) {
+        display: block;
+        position: absolute;
+        left: -12px;
+    }
+
+    .content-1gYQeQ .children-1MGS9G:has( .channelInfo-3jN1ay .mentionsBadge-3H1BKJ) .channelInfo-3jN1ay {
+        margin: 0;
+    }
+
+    .numberBadge-37OJ3S {
+        display: block !important;
+    }
+
     .selected-2TbFuo .name-28HaxV {
         color: white;
+    }
+
+    .selected-2TbFuo .content-1gYQeQ {
+        background-color: transparent !important;
     }
 
     .emojiColorFill-3g46kH {
@@ -67,6 +103,15 @@
     .mainContent-20q_Hp {
         flex-direction: row-reverse;
     }
+
+/* User area */
+.panels-3wFtMD {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.container-YkUktl {
+    background: none !important;
+}
 
 /* Chat */
     /* Send Message */
@@ -79,6 +124,33 @@
             border-radius: 50px;
         } 
 
+        .form-3gdLxP {
+            margin-top: 0;
+        }
+
+    /* Messages */
+        .messageListItem-ZZ7v6g, .wrapper-15CKyy {
+            background-color: rgba(0, 0, 0, 0.521);
+            border-radius: 10px;
+            margin: 3px 10px;
+        }
+
+        .messageListItem-ZZ7v6g .message-2CShn3, .contents-1UYEBX {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        /* Reactions */
+            .reaction-3vwAF2 {
+                background: rgba(0, 0, 0, 0.219);
+            }
+
+        /* Thread */
+            .container-3i3IzO {
+                background-color: rgba(0, 0, 0, 0.322);
+                border-radius: 10px;
+            }
+
 
 .container-2cd8Mz, .chatContent-3KubbW {
     background-color: transparent !important;
@@ -89,6 +161,14 @@
 .membersWrap-3NUR2t {
     max-width: 240px;
     min-width: 240px;
+}
+
+.members-3WRCEx{
+    background-color: transparent;
+}
+
+.container-2o3qEW {
+    background-color: rgba(0, 0, 0, 0.527) !important;
 }
 
 .hiddenMembers-8kpYM0 {
