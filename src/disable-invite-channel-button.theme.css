@@ -1,3 +1,11 @@
-.wrapper-NhbLHG .content-1gYQeQ .children-1MGS9G *:not(.channelInfo-3jN1ay .mentionsBadge-3H1BKJ):not(.channelInfo-3jN1ay):not(.mentionsBadge-3H1BKJ):not(.mentionsBadge-3H1BKJ .numberBadge-37OJ3S) {
+.wrapper-NhbLHG .content-1gYQeQ .children-1MGS9G *:not(.channelInfo-3jN1ay .mentionsBadge-3H1BKJ):not(.channelInfo-3jN1ay) {
     display: none;
+}
+
+.iconVisibility-vptxma:hover .content-1gYQeQ .children-1MGS9G  .channelInfo-3jN1ay {
+    display: block;
+}
+
+.wrapper-NhbLHG .content-1gYQeQ .mainContent-20q_Hp .children-1MGS9G * {
+    display: block !important;
 }
