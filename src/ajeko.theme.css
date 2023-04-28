@@ -2,6 +2,7 @@
     text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
 }
 
+
 /* Background */
     .container-1eFtFS {
         backdrop-filter: blur(5px);
@@ -65,7 +66,16 @@
         font-weight: bold;
     }
 
+    .content-1gYQeQ:has(.mainContent-20q_Hp .children-1MGS9G .mentionsBadge-3H1BKJ) .mainContent-20q_Hp .name-28HaxV {
+        color: #f23f42;
+        font-weight: bold;
+    }
+
     .content-1gYQeQ:has(.children-1MGS9G .channelInfo-3jN1ay .mentionsBadge-3H1BKJ) {
+        overflow: visible !important;
+    }
+
+    .content-1gYQeQ:has(.children-1MGS9G .mentionsBadge-3H1BKJ) {
         overflow: visible !important;
     }
 
@@ -78,6 +88,12 @@
         display: block;
         position: absolute;
         left: -12px;
+    }
+
+    .content-1gYQeQ .mainContent-20q_Hp .children-1MGS9G:has(.mentionsBadge-3H1BKJ) {
+        display: block;
+        position: absolute;
+        left: -17px;
     }
 
     .content-1gYQeQ .children-1MGS9G:has( .channelInfo-3jN1ay .mentionsBadge-3H1BKJ) .channelInfo-3jN1ay {
