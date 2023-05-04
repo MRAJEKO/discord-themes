@@ -121,13 +121,19 @@
     }
 
 /* User area */
-.panels-3wFtMD {
-    background-color: rgba(0, 0, 0, 0.507);
-}
+    .panels-3wFtMD {
+        background-color: rgba(0, 0, 0, 0.507);
+    }
 
-.container-YkUktl {
-    background: none !important;
-}
+    .container-YkUktl {
+        background: none !important;
+    }
+
+    .activityPanel-9icbyU {
+        background-color: transparent !important
+        border-top: 1px solid var(--background-modifier-accent);
+    }
+
 
 /* Chat */
     /* Send Message */
@@ -225,6 +231,23 @@
         /* Embed */
             .embedFull-1HGV2S {
                 background-color: rgba(0, 0, 0, 0.377);
+            }
+
+        /* Call */
+            .wrapper-1gVUIN, .container-1zzFcN {
+                background-color: transparent !important
+            }
+
+            .chatTarget-3H6mpC, .resizeHandle-PBRzPC, .button-1EGGcP {
+                background-color: rgba(82, 82, 82, 0.548);
+            }
+
+            .floating-3M3WeH {
+                border-left: none;
+            }
+
+            .callContainer-HtHELf {
+                background-color: rgba(0, 0, 0, 0.37);
             }
 
 .container-2cd8Mz, .chatContent-3KubbW {
